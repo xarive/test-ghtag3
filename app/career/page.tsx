@@ -38,46 +38,21 @@ const benefits = [
 
 const openings = [
   {
-    title: "Senior Electrical Engineer (Data Centre)",
-    department: "Data Centre Division",
-    location: "Kuala Lumpur",
+    title: "Electrical Engineer ",
+    department: "M&E",
+    location: "Penang",
     type: "Full-time",
-    experience: "8+ years",
+    experience: "Fresh Graduate",
     description:
-      "Lead electrical design for data centre projects including power distribution, UPS systems, and emergency power.",
+      "Excellent opportunity for engineering graduates to kickstart their career in consulting engineering.",
   },
   {
     title: "Mechanical Engineer",
-    department: "M&E Division",
-    location: "Kuala Lumpur",
-    type: "Full-time",
-    experience: "5+ years",
-    description: "Design HVAC systems for commercial and residential developments with focus on energy efficiency.",
-  },
-  {
-    title: "Junior Engineer (Fresh Graduate)",
-    department: "Engineering",
-    location: "Kuala Lumpur",
+    department: "M&E",
+    location: "Penang",
     type: "Full-time",
     experience: "Fresh Graduate",
     description: "Excellent opportunity for engineering graduates to kickstart their career in consulting engineering.",
-  },
-  {
-    title: "Project Manager",
-    department: "Project Management",
-    location: "Kuala Lumpur",
-    type: "Full-time",
-    experience: "10+ years",
-    description:
-      "Oversee project delivery, client relationships, and team coordination for major engineering projects.",
-  },
-  {
-    title: "CAD Technician",
-    department: "Design & Drafting",
-    location: "Kuala Lumpur",
-    type: "Full-time",
-    experience: "3+ years",
-    description: "Produce detailed engineering drawings using AutoCAD and Revit for M&E systems.",
   },
 ]
 
@@ -98,14 +73,12 @@ export default function CareerPage() {
                 </h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    At MEG Consult, we believe our people are our greatest asset. We offer a dynamic work environment
-                    where talented engineers can grow their careers while working on cutting-edge data centre and M&E
-                    projects.
+                    We believe our people are our greatest asset. We offer a dynamic work environment
+                    where talented engineers can grow their careers.
                   </p>
                   <p>
                     Join a team of experienced Professional Engineers who are leaders in their respective fields. Work
-                    on prestigious projects for global clients and contribute to Malaysia's digital infrastructure
-                    growth.
+                    on prestigious projects for global clients.
                   </p>
                 </div>
               </div>
