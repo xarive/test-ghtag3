@@ -224,7 +224,8 @@ export default function AboutPage() {
               {[
                 { year: "2010", event: "GH TAG Consultancy established" },
                 { year: "2020", event: "GH TAG Sdn. Bhd. incorporated" },
-              ].map((milestone, index) => (
+              ]
+                {milestones.map((milestone, index) => (
                 <div
                   key={milestone.year}
                   className={`relative flex items-center mb-8 ${index % 2 === 0 ? "justify-start" : "justify-end"}`}
