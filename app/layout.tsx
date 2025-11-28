@@ -7,10 +7,10 @@ import "./globals.css"
 const _inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "MEG Consult Sdn Bhd | Data Centre Consulting Engineers",
+  title: "GH TAG Sdn Bhd | Consulting Mechanical and Engineers",
   description:
-    "Industry leading data centre consulting engineer. Malaysian consultant firm established in 2007, providing comprehensive multi-disciplinary engineering services.",
-  keywords: ["data centre", "consulting engineer", "M&E engineering", "Malaysia", "MEG Consult"],
+    "Consulting Mechanical and Electrical Engineers.",
+  keywords: ["consulting engineer", "M&E engineering", "Malaysia", "GHTAG"],
     generator: 'v0.app'
 }
 
