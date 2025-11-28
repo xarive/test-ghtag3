@@ -222,7 +222,7 @@ export default function AboutPage() {
               <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-border" />
 
               {[
-                { year: "2010", event: "GH TAG Consultancy established" }
+                { year: "2010", event: "GH TAG Consultancy established" },
                 { year: "2020", event: "GH TAG Sdn. Bhd. incorporated" },
               ].map((milestone, index) => (
                 <div
