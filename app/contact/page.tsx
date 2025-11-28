@@ -252,15 +252,15 @@ export default function ContactPage() {
                 {/* Map Placeholder */}
                 <div className="relative h-[400px] rounded-lg overflow-hidden mb-8 bg-muted">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.957389849456!2d101.68666!3d3.1266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwMDcnMzUuOCJOIDEwMcKwNDEnMTIuMCJF!5e0!3m2!1sen!2smy!4v1635000000000!5m2!1sen!2smy"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="MEG Consult Location"
-                  />
+                  width="600"
+                  height="450"
+                  style="border:0"
+                  loading="lazy"
+                  allowfullscreen
+                  referrerpolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps?q=5.39239,100.29723&z=17&output=embed">
+                </iframe>
+
                 </div>
 
                 {/* Social Links */}
@@ -314,7 +314,7 @@ export default function ContactPage() {
                 CALL US NOW
               </a>
               <a
-                href="mailto:info@meg.com.my"
+                href="mailto:admin@ghtag.com"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary-foreground text-foreground hover:bg-primary-foreground/90 transition-colors rounded-md text-sm tracking-widest"
               >
                 <Mail className="w-4 h-4" />
