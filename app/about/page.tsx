@@ -224,7 +224,7 @@ export default function AboutPage() {
               {[
                 { year: "2000", event: "xxx" },
                 { year: "2010", event: "GH TAG Consultancy established" },
-                { year: "2015", event: "xxx },
+                { year: "2015", event: "xxx" },
                 { year: "2020", event: "GH TAG Sdn. Bhd. incorporated" },
                 { year: "2022", event: "xx" },
                 { year: "2025", event: "xx" },
