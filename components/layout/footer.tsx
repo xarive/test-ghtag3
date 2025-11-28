@@ -60,8 +60,7 @@ export function Footer() {
               </svg>
             </div>
             <p className="text-sm text-primary-foreground/80 mb-6 leading-relaxed">
-              Industry leading data centre consulting engineer. A Malaysian consultant firm established in 2007,
-              providing comprehensive multi-disciplinary engineering services.
+              Consulting Mechanical and Electrical Engineers
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-primary-foreground/70 hover:text-primary-foreground transition-colors">
@@ -135,8 +134,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-cyan-400 mt-0.5 shrink-0" />
                 <span className="text-sm text-primary-foreground/70">
-                  Suite 10-3, Level 10, Menara Sentral Vista, 150 Jalan Sultan Abdul Samad, Brickfields, 50470 Kuala
-                  Lumpur
+                  5-4-11, Hunza Complex, Jalan Gangsa, Greenlane 11600 Penang
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -145,7 +143,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-cyan-400 shrink-0" />
-                <span className="text-sm text-primary-foreground/70">info@meg.com.my</span>
+                <span className="text-sm text-primary-foreground/70">admin@ghtag.com</span>
               </li>
             </ul>
           </div>
@@ -154,7 +152,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 border-t border-primary-foreground/20 pt-8">
           <p className="text-center text-sm text-primary-foreground/60">
-            &copy; {new Date().getFullYear()} MEG Consult Sdn Bhd. All rights reserved.
+            &copy; {new Date().getFullYear()} GH TAG Sdn. Bhd. All rights reserved.
           </p>
         </div>
       </div>
