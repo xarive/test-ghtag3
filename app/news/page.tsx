@@ -8,65 +8,19 @@ import { Badge } from "@/components/ui/badge"
 import { Calendar, ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "News | MEG Consult Sdn Bhd",
+  title: "News | GH TAG Sdn Bhd",
   description:
-    "Latest news, updates, and insights from MEG Consult on data centre and engineering industry developments.",
+    "Latest news, updates, and insights for engineering industry developments.",
 }
 
 const news = [
   {
-    title: "MEG Consult Completes Cyberjaya Hyperscale Data Centre Project",
+    title: "GH TAG Sdn. Bhd. establishment",
     excerpt:
-      "We are proud to announce the successful completion of the 50MW hyperscale data centre campus in Cyberjaya, one of the largest data centre projects in Malaysia.",
-    date: "November 15, 2025",
-    category: "Project News",
+      "Established 2020 for business expansion and restructure plan",
+    category: "All",
     image: "/placeholder.svg?key=nkkxr",
-    slug: "cyberjaya-hyperscale-completion",
-  },
-  {
-    title: "Malaysia's Data Centre Industry: Growth Outlook for 2024",
-    excerpt:
-      "Our technical director shares insights on the rapid growth of Malaysia's data centre sector and what it means for the engineering industry.",
-    date: "October 28, 2025",
-    category: "Industry Insights",
-    image: "/placeholder.svg?key=05deu",
-    slug: "malaysia-data-centre-growth-2024",
-  },
-  {
-    title: "MEG Consult Achieves ISO 9001:2015 Recertification",
-    excerpt:
-      "Our commitment to quality management has been reaffirmed with the successful recertification of ISO 9001:2015 for our engineering services.",
-    date: "October 10, 2025",
-    category: "Company News",
-    image: "/placeholder.svg?key=q9mne",
-    slug: "iso-recertification-2023",
-  },
-  {
-    title: "Sustainable Data Centre Design: Best Practices",
-    excerpt:
-      "Exploring innovative approaches to reduce energy consumption and environmental impact in modern data centre facilities.",
-    date: "September 22, 2025",
-    category: "Technical",
-    image: "/placeholder.svg?key=h3f2x",
-    slug: "sustainable-data-centre-design",
-  },
-  {
-    title: "MEG Consult Expands Team with New Senior Engineers",
-    excerpt:
-      "We welcome three new senior engineers to our growing team, bringing additional expertise in data centre and M&E engineering.",
-    date: "September 5, 2025",
-    category: "Company News",
-    image: "/placeholder.svg?key=7b3dc",
-    slug: "team-expansion-2023",
-  },
-  {
-    title: "The Future of Edge Data Centres in Southeast Asia",
-    excerpt:
-      "An analysis of the emerging edge computing trend and its implications for data centre development in the region.",
-    date: "August 18, 2025",
-    category: "Industry Insights",
-    image: "/placeholder.svg?key=3u7h5",
-    slug: "edge-data-centres-sea",
+    slug: "",
   },
 ]
 
