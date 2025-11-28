@@ -3,12 +3,6 @@
   "build": {
     "env": {}
   },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
