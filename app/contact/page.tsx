@@ -18,17 +18,17 @@ const contactInfo = [
     icon: MapPin,
     title: "Address",
     content:
-      "Suite 10-3, Level 10, Menara Sentral Vista, 150 Jalan Sultan Abdul Samad, Brickfields, 50470 Kuala Lumpur, Malaysia",
+      "5-4-11,Hunza Complex, Jalan Gangsa, Greenlane 11600 Penang",
   },
   {
     icon: Phone,
     title: "Phone",
-    content: "+603-2276 6322",
+    content: "+604-668 9001",
   },
   {
     icon: Mail,
     title: "Email",
-    content: "info@meg.com.my",
+    content: "admin@ghtag.com",
   },
   {
     icon: Clock,
@@ -39,7 +39,6 @@ const contactInfo = [
 
 const inquiryTypes = [
   "General Inquiry",
-  "Data Centre Project",
   "M&E Engineering Project",
   "Career Opportunity",
   "Partnership",
@@ -303,7 +302,7 @@ export default function ContactPage() {
               READY TO START YOUR PROJECT?
             </h2>
             <p className="text-primary-foreground/80 leading-relaxed mb-8">
-              Our team of experienced Professional Engineers is ready to help you with your data centre or M&E
+              Our team of experienced Professional Engineers is ready to help you with your
               engineering project. Contact us today to discuss your requirements.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
