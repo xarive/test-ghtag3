@@ -6,14 +6,10 @@ export function AboutSection() {
     <section className="py-20 lg:py-28 bg-background">
       <div className="mx-auto max-w-4xl px-4 lg:px-8 text-center">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-light tracking-wide text-foreground mb-8">
-          THE PREFERRED CONSULTING ENGINEER GROUP WITH MEG
+          CONSULTING MECHANICAL AND ELECTRICAL ENGINEERS
         </h2>
         <p className="text-muted-foreground leading-relaxed mb-10">
-          We are a Malaysian consultant firm established in 2007, managed by experienced Professional Engineers. The
-          company is registered with Lembaga Jurutera Malaysia and the Association of Consulting Engineers Malaysia. The
-          firm emphasizes being leaders in their respective fields through teamwork and staying updated with global
-          engineering and technology advancements. With diverse expertise among the principals, we provide comprehensive
-          multi-disciplinary services.
+          Established 2020, sophiscated design to your building needs.
         </p>
         <Button
           asChild
