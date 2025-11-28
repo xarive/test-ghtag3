@@ -251,15 +251,16 @@ export default function ContactPage() {
 
                 {/* Map Placeholder */}
                 <div className="relative h-[400px] rounded-lg overflow-hidden mb-8 bg-muted">
-                  <iframe
+                 <iframe
                   width="600"
                   height="450"
-                  style="border:0"
+                  style={{ border: 0 }}
                   loading="lazy"
-                  allowfullscreen
-                  referrerpolicy="no-referrer-when-downgrade"
-                  src="https://www.google.com/maps?q=5.39239,100.29723&z=17&output=embed">
-                </iframe>
+                  allowFullScreen
+                  referrerPolicy="no-referrer-when-downgrade"
+                  src="https://www.google.com/maps?q=5.39239,100.29723&z=17&output=embed"
+                ></iframe>
+
 
                 </div>
 
