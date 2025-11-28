@@ -6,9 +6,9 @@ import { PageHero } from "@/components/shared/page-hero"
 import { Award, Users, Target, CheckCircle2 } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "About Us | MEG Consult Sdn Bhd",
+  title: "About Us | GH TAG Sdn Bhd",
   description:
-    "Learn about MEG Consult, a Malaysian consultant firm established in 2007, managed by experienced Professional Engineers.",
+    "Incorporated and established in 2020 as a result of business expansion and restructure plan from GH TAG Consultancy formed in 2010",
 }
 
 const values = [
@@ -33,35 +33,62 @@ const values = [
 
 const certifications = [
   "Registered with Lembaga Jurutera Malaysia (BEM)",
-  "Member of Association of Consulting Engineers Malaysia (ACEM)",
-  "ISO 9001:2015 Certified",
-  "OHSAS 18001:2007 Certified",
 ]
 
 const team = [
   {
-    name: "Ir. Ahmad Rahman",
-    position: "Managing Director",
+    name: "Ir. Teh Khian Beng",
+    position: "Director",
     image: "/professional-malaysian-male-engineer-portrait.jpg",
-    qualifications: "P.Eng, MIEM, ACPE",
+    qualifications: "PEPC, MIEM",
   },
   {
-    name: "Ir. Lee Wei Ming",
-    position: "Technical Director - Data Centre",
+    name: "Ir. Tai Lian Pong",
+    position: "Director",
     image: "/professional-asian-male-engineer-portrait.jpg",
-    qualifications: "P.Eng, MIEM, CDCP",
+    qualifications: "PEPC, MIEM",
   },
   {
-    name: "Ir. Sarah Abdullah",
-    position: "Technical Director - M&E",
+    name: "Lim See Kong",
+    position: "Director",
     image: "/professional-malaysian-female-engineer-portrait.jpg",
-    qualifications: "P.Eng, MIEM, LEED AP",
+    qualifications: "",
   },
   {
-    name: "Ir. Tan Chee Keong",
-    position: "Senior Principal Engineer",
+    name: "Lee You Wan",
+    position: "Associate",
     image: "/professional-asian-male-senior-engineer-portrait.jpg",
-    qualifications: "P.Eng, MIEM",
+    qualifications: "",
+  },  
+  {
+    name: "Foong Chia Sing",
+    position: "Associate",
+    image: "/professional-asian-male-senior-engineer-portrait.jpg",
+    qualifications: "",
+  },
+  {
+    name: "Ir Lim Yean Tit",
+    position: "Associate",
+    image: "/professional-asian-male-senior-engineer-portrait.jpg",
+    qualifications: "PEPC, MIEM",
+  },
+  {
+    name: "Ir Loh Wei Kiat",
+    position: "Associate",
+    image: "/professional-asian-male-senior-engineer-portrait.jpg",
+    qualifications: "PE,MIEM",
+  },
+  {
+    name: "Ng Kai He",
+    position: "Engineer",
+    image: "/professional-asian-male-senior-engineer-portrait.jpg",
+    qualifications: "",
+  },
+  {
+    name: "Sim Xuan Wei",
+    position: "Engineer",
+    image: "/professional-asian-male-senior-engineer-portrait.jpg",
+    qualifications: "",
   },
 ]
 
@@ -70,7 +97,7 @@ export default function AboutPage() {
     <>
       <Header />
       <main>
-        <PageHero title="ABOUT US" subtitle="The Preferred Consulting Engineer Group" />
+        <PageHero title="ABOUT US" subtitle="Consulting Mechanical and Electrical Engineers" />
 
         {/* Company Overview */}
         <section className="py-20 lg:py-28 bg-background">
@@ -80,19 +107,19 @@ export default function AboutPage() {
                 <h2 className="text-2xl md:text-3xl font-light tracking-wide text-foreground mb-6">OUR STORY</h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    MEG Consult Sdn Bhd is a Malaysian consultant firm established in 2007, managed by experienced
-                    Professional Engineers. The company is registered with Lembaga Jurutera Malaysia and the Association
-                    of Consulting Engineers Malaysia.
+                    Incorporated and established in 2020 as a result of business expansion 
+                    and restructure plan from GH TAG Consultancy, 
+                    which was operated as sole proprietorship formed in 2010.
                   </p>
                   <p>
-                    The firm emphasizes being leaders in their respective fields through teamwork and staying updated
-                    with global engineering and technology advancements. With diverse expertise among the principals, we
-                    provide comprehensive multi-disciplinary services.
+                    Consulting services includes feasibility studies, project management, master planning, infrastructure development and planning, 
+                    existing installation due diligence, liaison with local authorities, conceptual development, preliminary design, detailed design, 
+                    value engineering, quantity take-off and cost estimation, tender documentation and evaluation, construction supervision, 
+                    contract administration and commissioning of plant and equipment.
                   </p>
                   <p>
-                    Over the years, we have grown to become one of the leading data centre consulting engineers in
-                    Malaysia, serving global clients from the US, Europe, Australia, China, Hong Kong, Singapore and
-                    Malaysia.
+                    Specialised skills and vast experience in the following development throughout these years of engineering practices:
+                    Mechanical & Electrical Infrastructure | Mechanical & Electrical Facilities | Landed Residential Development | High Rise Residential Buildings | Commercial & Offices Buildings | Hypermarkets & Commercial Complexes | Industrial & Factory Buildings | Club House & Theme Parks | Resort & Hotel Development | Hospitals and Clinics | Stadiums & Sports Complexes | Interior Renovation & Retrofit | Network & ICT Infrastructures | Smart Home, Security & Extra Low Voltages Services
                   </p>
                 </div>
               </div>
@@ -195,12 +222,8 @@ export default function AboutPage() {
               <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-border" />
 
               {[
-                { year: "2007", event: "MEG Consult Sdn Bhd established" },
-                { year: "2010", event: "First major data centre project completed" },
-                { year: "2014", event: "ISO 9001:2015 Certification achieved" },
-                { year: "2017", event: "Expanded to serve international clients" },
-                { year: "2020", event: "100+ projects milestone reached" },
-                { year: "2023", event: "Leading data centre consulting engineer in Malaysia" },
+                { year: "2010", event: "GH TAG Consultancy established" }
+                { year: "2020", event: "GH TAG Sdn. Bhd. incorporated" },
               ].map((milestone, index) => (
                 <div
                   key={milestone.year}
